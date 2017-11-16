@@ -39,9 +39,9 @@ properties = {
   // writeMachine: true, // write machine
   // writeTools: true, // writes the tools
   // preloadTool: false, // preloads next tool on tool change if any
-  showSequenceNumbers: true, // show sequence numbers
+  showSequenceNumbers: true, // show sequence numbers -- suggest keeping this on for controller-level debugging
   sequenceNumberStart: 10, // first sequence number
-  sequenceNumberIncrement: 10, // increment for sequence numbers
+  sequenceNumberIncrement: 10, // increment for sequence numbers -- upped this to 10 for extra lines
   optionalStop: true, // optional stop
   separateWordsWithSpace: true, // specifies that the words should be separated with a white space
   useRadius: false, // specifies that arcs should be output using the radius (R word) instead of the I, J, and K words
