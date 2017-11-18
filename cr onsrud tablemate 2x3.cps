@@ -4,8 +4,6 @@
 
   CR Onsrud Tablemate 2x3 with B&R controller post processor configuration.
 
-  
-  FORKID {04622D27-72F0-45d4-85FB-DB346FD1AE22}
 */
 
 description = "CR Onsrud Tablemate 2x3";
@@ -1096,7 +1094,7 @@ function onClose() {
   optionalSection = false;
 
 	writeBlock("D0");
-	writeBlock(gMotionModal.format(0), zOutput.format(0));
+	//writeBlock(gMotionModal.format(0), zOutput.format(0));
 	writeBlock(gFormat.format(53));
   currentWorkOffset = undefined;
 	writeBlock(gMotionModal.format(0), xOutput.format(0), mFormat.format(5));
